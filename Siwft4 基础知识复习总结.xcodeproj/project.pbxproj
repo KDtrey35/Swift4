@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D89D1BD208F179A00F1C98D /* SimpleValuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D89D1B5208F179A00F1C98D /* SimpleValuesViewController.swift */; };
 		8DB28958208F07D40090EC85 /* Siwft4_________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB28957208F07D40090EC85 /* Siwft4_________Tests.swift */; };
 		8DB28963208F07D40090EC85 /* Siwft4_________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB28962208F07D40090EC85 /* Siwft4_________UITests.swift */; };
 		8DB289B1208F100F0090EC85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB289A9208F100F0090EC85 /* AppDelegate.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D89D1B5208F179A00F1C98D /* SimpleValuesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleValuesViewController.swift; sourceTree = "<group>"; };
 		8DB2893F208F07D40090EC85 /* Siwft4 基础知识复习总结.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Siwft4 基础知识复习总结.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB28953208F07D40090EC85 /* Siwft4 基础知识复习总结Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Siwft4 基础知识复习总结Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB28957208F07D40090EC85 /* Siwft4_________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Siwft4_________Tests.swift"; sourceTree = "<group>"; };
@@ -75,6 +77,285 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D89D1B3208F179A00F1C98D /* 一、Swift初见 */ = {
+			isa = PBXGroup;
+			children = (
+				8D89D1B4208F179A00F1C98D /* 1.简单值 */,
+				8D89D1B6208F179A00F1C98D /* 2.控制流 */,
+				8D89D1B7208F179A00F1C98D /* 3.函数和闭包 */,
+				8D89D1B8208F179A00F1C98D /* 4.对象和类 */,
+				8D89D1B9208F179A00F1C98D /* 5.枚举和结构体 */,
+				8D89D1BA208F179A00F1C98D /* 6.协议和扩展 */,
+				8D89D1BB208F179A00F1C98D /* 7.错误处理 */,
+				8D89D1BC208F179A00F1C98D /* 8.泛型 */,
+			);
+			path = "一、Swift初见";
+			sourceTree = "<group>";
+		};
+		8D89D1B4208F179A00F1C98D /* 1.简单值 */ = {
+			isa = PBXGroup;
+			children = (
+				8D89D1B5208F179A00F1C98D /* SimpleValuesViewController.swift */,
+			);
+			path = "1.简单值";
+			sourceTree = "<group>";
+		};
+		8D89D1B6208F179A00F1C98D /* 2.控制流 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "2.控制流";
+			sourceTree = "<group>";
+		};
+		8D89D1B7208F179A00F1C98D /* 3.函数和闭包 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3.函数和闭包";
+			sourceTree = "<group>";
+		};
+		8D89D1B8208F179A00F1C98D /* 4.对象和类 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "4.对象和类";
+			sourceTree = "<group>";
+		};
+		8D89D1B9208F179A00F1C98D /* 5.枚举和结构体 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "5.枚举和结构体";
+			sourceTree = "<group>";
+		};
+		8D89D1BA208F179A00F1C98D /* 6.协议和扩展 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "6.协议和扩展";
+			sourceTree = "<group>";
+		};
+		8D89D1BB208F179A00F1C98D /* 7.错误处理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "7.错误处理";
+			sourceTree = "<group>";
+		};
+		8D89D1BC208F179A00F1C98D /* 8.泛型 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "8.泛型";
+			sourceTree = "<group>";
+		};
+		8D89D1BE208F17E900F1C98D /* 二、Swift教程 */ = {
+			isa = PBXGroup;
+			children = (
+				8D89D1BF208F17EA00F1C98D /* 1.基础部分 */,
+				8D89D1C0208F17EA00F1C98D /* 10.属性 */,
+				8D89D1C1208F17EA00F1C98D /* 11.方法 */,
+				8D89D1C2208F17EA00F1C98D /* 12.下标 */,
+				8D89D1C3208F17EA00F1C98D /* 13.继承 */,
+				8D89D1C4208F17EA00F1C98D /* 14.构造过程 */,
+				8D89D1C5208F17EA00F1C98D /* 15.析构过程 */,
+				8D89D1C6208F17EA00F1C98D /* 16.自动引用计数 */,
+				8D89D1C7208F17EA00F1C98D /* 17.可选链式调用 */,
+				8D89D1C8208F17EA00F1C98D /* 18.错误处理 */,
+				8D89D1C9208F17EA00F1C98D /* 19.类型转换 */,
+				8D89D1CA208F17EA00F1C98D /* 2.基本运算符 */,
+				8D89D1CB208F17EA00F1C98D /* 20.嵌套类型 */,
+				8D89D1CC208F17EA00F1C98D /* 21.扩展 */,
+				8D89D1CD208F17EA00F1C98D /* 22.协议 */,
+				8D89D1CE208F17EA00F1C98D /* 23.泛型 */,
+				8D89D1CF208F17EA00F1C98D /* 24.访问控制 */,
+				8D89D1D0208F17EA00F1C98D /* 25.高级运算符 */,
+				8D89D1D1208F17EA00F1C98D /* 3.字符串和字符 */,
+				8D89D1D2208F17EA00F1C98D /* 4.集合类型 */,
+				8D89D1D3208F17EA00F1C98D /* 5.控制流 */,
+				8D89D1D4208F17EA00F1C98D /* 6.函数 */,
+				8D89D1D5208F17EA00F1C98D /* 7.闭包 */,
+				8D89D1D6208F17EA00F1C98D /* 8.枚举 */,
+				8D89D1D7208F17EA00F1C98D /* 9.类和结构体 */,
+			);
+			path = "二、Swift教程";
+			sourceTree = "<group>";
+		};
+		8D89D1BF208F17EA00F1C98D /* 1.基础部分 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "1.基础部分";
+			sourceTree = "<group>";
+		};
+		8D89D1C0208F17EA00F1C98D /* 10.属性 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "10.属性";
+			sourceTree = "<group>";
+		};
+		8D89D1C1208F17EA00F1C98D /* 11.方法 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "11.方法";
+			sourceTree = "<group>";
+		};
+		8D89D1C2208F17EA00F1C98D /* 12.下标 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "12.下标";
+			sourceTree = "<group>";
+		};
+		8D89D1C3208F17EA00F1C98D /* 13.继承 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "13.继承";
+			sourceTree = "<group>";
+		};
+		8D89D1C4208F17EA00F1C98D /* 14.构造过程 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "14.构造过程";
+			sourceTree = "<group>";
+		};
+		8D89D1C5208F17EA00F1C98D /* 15.析构过程 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "15.析构过程";
+			sourceTree = "<group>";
+		};
+		8D89D1C6208F17EA00F1C98D /* 16.自动引用计数 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "16.自动引用计数";
+			sourceTree = "<group>";
+		};
+		8D89D1C7208F17EA00F1C98D /* 17.可选链式调用 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "17.可选链式调用";
+			sourceTree = "<group>";
+		};
+		8D89D1C8208F17EA00F1C98D /* 18.错误处理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "18.错误处理";
+			sourceTree = "<group>";
+		};
+		8D89D1C9208F17EA00F1C98D /* 19.类型转换 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "19.类型转换";
+			sourceTree = "<group>";
+		};
+		8D89D1CA208F17EA00F1C98D /* 2.基本运算符 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "2.基本运算符";
+			sourceTree = "<group>";
+		};
+		8D89D1CB208F17EA00F1C98D /* 20.嵌套类型 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "20.嵌套类型";
+			sourceTree = "<group>";
+		};
+		8D89D1CC208F17EA00F1C98D /* 21.扩展 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "21.扩展";
+			sourceTree = "<group>";
+		};
+		8D89D1CD208F17EA00F1C98D /* 22.协议 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "22.协议";
+			sourceTree = "<group>";
+		};
+		8D89D1CE208F17EA00F1C98D /* 23.泛型 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "23.泛型";
+			sourceTree = "<group>";
+		};
+		8D89D1CF208F17EA00F1C98D /* 24.访问控制 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "24.访问控制";
+			sourceTree = "<group>";
+		};
+		8D89D1D0208F17EA00F1C98D /* 25.高级运算符 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "25.高级运算符";
+			sourceTree = "<group>";
+		};
+		8D89D1D1208F17EA00F1C98D /* 3.字符串和字符 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3.字符串和字符";
+			sourceTree = "<group>";
+		};
+		8D89D1D2208F17EA00F1C98D /* 4.集合类型 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "4.集合类型";
+			sourceTree = "<group>";
+		};
+		8D89D1D3208F17EA00F1C98D /* 5.控制流 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "5.控制流";
+			sourceTree = "<group>";
+		};
+		8D89D1D4208F17EA00F1C98D /* 6.函数 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "6.函数";
+			sourceTree = "<group>";
+		};
+		8D89D1D5208F17EA00F1C98D /* 7.闭包 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "7.闭包";
+			sourceTree = "<group>";
+		};
+		8D89D1D6208F17EA00F1C98D /* 8.枚举 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "8.枚举";
+			sourceTree = "<group>";
+		};
+		8D89D1D7208F17EA00F1C98D /* 9.类和结构体 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "9.类和结构体";
+			sourceTree = "<group>";
+		};
 		8DB28936208F07D40090EC85 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +379,8 @@
 		8DB28941208F07D40090EC85 /* Siwft4 基础知识复习总结 */ = {
 			isa = PBXGroup;
 			children = (
+				8D89D1B3208F179A00F1C98D /* 一、Swift初见 */,
+				8D89D1BE208F17E900F1C98D /* 二、Swift教程 */,
 				8DB289A8208F100F0090EC85 /* Swift */,
 			);
 			path = "Siwft4 基础知识复习总结";
@@ -271,6 +554,7 @@
 			files = (
 				8DB289B6208F100F0090EC85 /* ViewController.swift in Sources */,
 				8DB289B1208F100F0090EC85 /* AppDelegate.swift in Sources */,
+				8D89D1BD208F179A00F1C98D /* SimpleValuesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
