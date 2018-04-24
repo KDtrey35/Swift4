@@ -11,6 +11,7 @@
 		8D89D1D9208F18CE00F1C98D /* ControlFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D89D1D8208F18CE00F1C98D /* ControlFlowViewController.swift */; };
 		8D89D1F0208F194000F1C98D /* TheBasicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D89D1EF208F194000F1C98D /* TheBasicsViewController.swift */; };
 		8D89D1F2208F196C00F1C98D /* AboutTheLanguageReferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D89D1F1208F196C00F1C98D /* AboutTheLanguageReferenceViewController.swift */; };
+		8D89D1F4208F19E500F1C98D /* AccessControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D89D1F3208F19E500F1C98D /* AccessControlViewController.swift */; };
 		8DB28958208F07D40090EC85 /* Siwft4_________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB28957208F07D40090EC85 /* Siwft4_________Tests.swift */; };
 		8DB28963208F07D40090EC85 /* Siwft4_________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB28962208F07D40090EC85 /* Siwft4_________UITests.swift */; };
 		8DB289B1208F100F0090EC85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB289A9208F100F0090EC85 /* AppDelegate.swift */; };
@@ -43,6 +44,7 @@
 		8D89D1D8208F18CE00F1C98D /* ControlFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowViewController.swift; sourceTree = "<group>"; };
 		8D89D1EF208F194000F1C98D /* TheBasicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBasicsViewController.swift; sourceTree = "<group>"; };
 		8D89D1F1208F196C00F1C98D /* AboutTheLanguageReferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTheLanguageReferenceViewController.swift; sourceTree = "<group>"; };
+		8D89D1F3208F19E500F1C98D /* AccessControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessControlViewController.swift; sourceTree = "<group>"; };
 		8DB2893F208F07D40090EC85 /* Siwft4 基础知识复习总结.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Siwft4 基础知识复习总结.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB28953208F07D40090EC85 /* Siwft4 基础知识复习总结Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Siwft4 基础知识复习总结Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB28957208F07D40090EC85 /* Siwft4_________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Siwft4_________Tests.swift"; sourceTree = "<group>"; };
@@ -471,6 +473,7 @@
 		8D89D1E6208F18EE00F1C98D /* 1.Access Control 权限控制的黑与白 */ = {
 			isa = PBXGroup;
 			children = (
+				8D89D1F3208F19E500F1C98D /* AccessControlViewController.swift */,
 			);
 			path = "1.Access Control 权限控制的黑与白";
 			sourceTree = "<group>";
@@ -730,6 +733,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DB289B6208F100F0090EC85 /* ViewController.swift in Sources */,
+				8D89D1F4208F19E500F1C98D /* AccessControlViewController.swift in Sources */,
 				8D89D1F0208F194000F1C98D /* TheBasicsViewController.swift in Sources */,
 				8D89D1F2208F196C00F1C98D /* AboutTheLanguageReferenceViewController.swift in Sources */,
 				8DB289B1208F100F0090EC85 /* AppDelegate.swift in Sources */,
