@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DB28943208F07D40090EC85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB28942208F07D40090EC85 /* AppDelegate.swift */; };
+		8DB28945208F07D40090EC85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB28944208F07D40090EC85 /* ViewController.swift */; };
+		8DB28948208F07D40090EC85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB28946208F07D40090EC85 /* Main.storyboard */; };
+		8DB2894A208F07D40090EC85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB28949208F07D40090EC85 /* Assets.xcassets */; };
+		8DB2894D208F07D40090EC85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB2894B208F07D40090EC85 /* LaunchScreen.storyboard */; };
+		8DB28958208F07D40090EC85 /* Siwft4_________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB28957208F07D40090EC85 /* Siwft4_________Tests.swift */; };
+		8DB28963208F07D40090EC85 /* Siwft4_________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB28962208F07D40090EC85 /* Siwft4_________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DB28954208F07D40090EC85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB28937208F07D40090EC85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB2893E208F07D40090EC85;
+			remoteInfo = "Siwft4 基础知识复习总结";
+		};
+		8DB2895F208F07D40090EC85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB28937208F07D40090EC85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB2893E208F07D40090EC85;
+			remoteInfo = "Siwft4 基础知识复习总结";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DB2893F208F07D40090EC85 /* Siwft4 基础知识复习总结.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Siwft4 基础知识复习总结.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB28942208F07D40090EC85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DB28944208F07D40090EC85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DB28947208F07D40090EC85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DB28949208F07D40090EC85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DB2894C208F07D40090EC85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DB2894E208F07D40090EC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB28953208F07D40090EC85 /* Siwft4 基础知识复习总结Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Siwft4 基础知识复习总结Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB28957208F07D40090EC85 /* Siwft4_________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Siwft4_________Tests.swift"; sourceTree = "<group>"; };
+		8DB28959208F07D40090EC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB2895E208F07D40090EC85 /* Siwft4 基础知识复习总结UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Siwft4 基础知识复习总结UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB28962208F07D40090EC85 /* Siwft4_________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Siwft4_________UITests.swift"; sourceTree = "<group>"; };
+		8DB28964208F07D40090EC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DB2893C208F07D40090EC85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB28950208F07D40090EC85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB2895B208F07D40090EC85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DB28936208F07D40090EC85 = {
+			isa = PBXGroup;
+			children = (
+				8DB28941208F07D40090EC85 /* Siwft4 基础知识复习总结 */,
+				8DB28956208F07D40090EC85 /* Siwft4 基础知识复习总结Tests */,
+				8DB28961208F07D40090EC85 /* Siwft4 基础知识复习总结UITests */,
+				8DB28940208F07D40090EC85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DB28940208F07D40090EC85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DB2893F208F07D40090EC85 /* Siwft4 基础知识复习总结.app */,
+				8DB28953208F07D40090EC85 /* Siwft4 基础知识复习总结Tests.xctest */,
+				8DB2895E208F07D40090EC85 /* Siwft4 基础知识复习总结UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DB28941208F07D40090EC85 /* Siwft4 基础知识复习总结 */ = {
+			isa = PBXGroup;
+			children = (
+				8DB28942208F07D40090EC85 /* AppDelegate.swift */,
+				8DB28944208F07D40090EC85 /* ViewController.swift */,
+				8DB28946208F07D40090EC85 /* Main.storyboard */,
+				8DB28949208F07D40090EC85 /* Assets.xcassets */,
+				8DB2894B208F07D40090EC85 /* LaunchScreen.storyboard */,
+				8DB2894E208F07D40090EC85 /* Info.plist */,
+			);
+			path = "Siwft4 基础知识复习总结";
+			sourceTree = "<group>";
+		};
+		8DB28956208F07D40090EC85 /* Siwft4 基础知识复习总结Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8DB28957208F07D40090EC85 /* Siwft4_________Tests.swift */,
+				8DB28959208F07D40090EC85 /* Info.plist */,
+			);
+			path = "Siwft4 基础知识复习总结Tests";
+			sourceTree = "<group>";
+		};
+		8DB28961208F07D40090EC85 /* Siwft4 基础知识复习总结UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DB28962208F07D40090EC85 /* Siwft4_________UITests.swift */,
+				8DB28964208F07D40090EC85 /* Info.plist */,
+			);
+			path = "Siwft4 基础知识复习总结UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DB2893E208F07D40090EC85 /* Siwft4 基础知识复习总结 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB28967208F07D40090EC85 /* Build configuration list for PBXNativeTarget "Siwft4 基础知识复习总结" */;
+			buildPhases = (
+				8DB2893B208F07D40090EC85 /* Sources */,
+				8DB2893C208F07D40090EC85 /* Frameworks */,
+				8DB2893D208F07D40090EC85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Siwft4 基础知识复习总结";
+			productName = "Siwft4 基础知识复习总结";
+			productReference = 8DB2893F208F07D40090EC85 /* Siwft4 基础知识复习总结.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DB28952208F07D40090EC85 /* Siwft4 基础知识复习总结Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB2896A208F07D40090EC85 /* Build configuration list for PBXNativeTarget "Siwft4 基础知识复习总结Tests" */;
+			buildPhases = (
+				8DB2894F208F07D40090EC85 /* Sources */,
+				8DB28950208F07D40090EC85 /* Frameworks */,
+				8DB28951208F07D40090EC85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DB28955208F07D40090EC85 /* PBXTargetDependency */,
+			);
+			name = "Siwft4 基础知识复习总结Tests";
+			productName = "Siwft4 基础知识复习总结Tests";
+			productReference = 8DB28953208F07D40090EC85 /* Siwft4 基础知识复习总结Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DB2895D208F07D40090EC85 /* Siwft4 基础知识复习总结UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB2896D208F07D40090EC85 /* Build configuration list for PBXNativeTarget "Siwft4 基础知识复习总结UITests" */;
+			buildPhases = (
+				8DB2895A208F07D40090EC85 /* Sources */,
+				8DB2895B208F07D40090EC85 /* Frameworks */,
+				8DB2895C208F07D40090EC85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DB28960208F07D40090EC85 /* PBXTargetDependency */,
+			);
+			name = "Siwft4 基础知识复习总结UITests";
+			productName = "Siwft4 基础知识复习总结UITests";
+			productReference = 8DB2895E208F07D40090EC85 /* Siwft4 基础知识复习总结UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DB28937208F07D40090EC85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "JDK-002";
+				TargetAttributes = {
+					8DB2893E208F07D40090EC85 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8DB28952208F07D40090EC85 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8DB2893E208F07D40090EC85;
+					};
+					8DB2895D208F07D40090EC85 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8DB2893E208F07D40090EC85;
+					};
+				};
+			};
+			buildConfigurationList = 8DB2893A208F07D40090EC85 /* Build configuration list for PBXProject "Siwft4 基础知识复习总结" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DB28936208F07D40090EC85;
+			productRefGroup = 8DB28940208F07D40090EC85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DB2893E208F07D40090EC85 /* Siwft4 基础知识复习总结 */,
+				8DB28952208F07D40090EC85 /* Siwft4 基础知识复习总结Tests */,
+				8DB2895D208F07D40090EC85 /* Siwft4 基础知识复习总结UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DB2893D208F07D40090EC85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB2894D208F07D40090EC85 /* LaunchScreen.storyboard in Resources */,
+				8DB2894A208F07D40090EC85 /* Assets.xcassets in Resources */,
+				8DB28948208F07D40090EC85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB28951208F07D40090EC85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB2895C208F07D40090EC85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DB2893B208F07D40090EC85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB28945208F07D40090EC85 /* ViewController.swift in Sources */,
+				8DB28943208F07D40090EC85 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB2894F208F07D40090EC85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB28958208F07D40090EC85 /* Siwft4_________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB2895A208F07D40090EC85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB28963208F07D40090EC85 /* Siwft4_________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DB28955208F07D40090EC85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DB2893E208F07D40090EC85 /* Siwft4 基础知识复习总结 */;
+			targetProxy = 8DB28954208F07D40090EC85 /* PBXContainerItemProxy */;
+		};
+		8DB28960208F07D40090EC85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DB2893E208F07D40090EC85 /* Siwft4 基础知识复习总结 */;
+			targetProxy = 8DB2895F208F07D40090EC85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DB28946208F07D40090EC85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DB28947208F07D40090EC85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DB2894B208F07D40090EC85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DB2894C208F07D40090EC85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DB28965208F07D40090EC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DB28966208F07D40090EC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DB28968208F07D40090EC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A8426Z9FS;
+				INFOPLIST_FILE = "Siwft4 基础知识复习总结/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dayo.swift.Siwft4---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DB28969208F07D40090EC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A8426Z9FS;
+				INFOPLIST_FILE = "Siwft4 基础知识复习总结/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dayo.swift.Siwft4---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DB2896B208F07D40090EC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A8426Z9FS;
+				INFOPLIST_FILE = "Siwft4 基础知识复习总结Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dayo.swift.Siwft4---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Siwft4 基础知识复习总结.app/Siwft4 基础知识复习总结";
+			};
+			name = Debug;
+		};
+		8DB2896C208F07D40090EC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A8426Z9FS;
+				INFOPLIST_FILE = "Siwft4 基础知识复习总结Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dayo.swift.Siwft4---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Siwft4 基础知识复习总结.app/Siwft4 基础知识复习总结";
+			};
+			name = Release;
+		};
+		8DB2896E208F07D40090EC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A8426Z9FS;
+				INFOPLIST_FILE = "Siwft4 基础知识复习总结UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dayo.swift.Siwft4---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Siwft4 基础知识复习总结";
+			};
+			name = Debug;
+		};
+		8DB2896F208F07D40090EC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A8426Z9FS;
+				INFOPLIST_FILE = "Siwft4 基础知识复习总结UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dayo.swift.Siwft4---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Siwft4 基础知识复习总结";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DB2893A208F07D40090EC85 /* Build configuration list for PBXProject "Siwft4 基础知识复习总结" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB28965208F07D40090EC85 /* Debug */,
+				8DB28966208F07D40090EC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB28967208F07D40090EC85 /* Build configuration list for PBXNativeTarget "Siwft4 基础知识复习总结" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB28968208F07D40090EC85 /* Debug */,
+				8DB28969208F07D40090EC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB2896A208F07D40090EC85 /* Build configuration list for PBXNativeTarget "Siwft4 基础知识复习总结Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB2896B208F07D40090EC85 /* Debug */,
+				8DB2896C208F07D40090EC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB2896D208F07D40090EC85 /* Build configuration list for PBXNativeTarget "Siwft4 基础知识复习总结UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB2896E208F07D40090EC85 /* Debug */,
+				8DB2896F208F07D40090EC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DB28937208F07D40090EC85 /* Project object */;
+}
